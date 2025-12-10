@@ -1,0 +1,50 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/solomon/atlasr1_ws/build/atlasr1_controller
+Built target ament_cmake_python_copy_atlasr1_controller
+running egg_info
+creating atlasr1_controller.egg-info
+writing atlasr1_controller.egg-info/PKG-INFO
+writing dependency_links to atlasr1_controller.egg-info/dependency_links.txt
+writing top-level names to atlasr1_controller.egg-info/top_level.txt
+writing manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+reading manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+writing manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_atlasr1_controller_egg
+-- Install configuration: ""
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.sh
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.dsv
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/__init__.py
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py
+/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py:23: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  self.speed_conversion_ = np.array([[self.wheel_radius_/2,self.wheel_radius_/2]
+Listing '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller'...
+Compiling '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/__init__.py'...
+Compiling '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py'...
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include/atlasr1_controller
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config/atlasr1_controllers.yaml
+[31mCMake Error at cmake_install.cmake:74 (file):
+  file INSTALL cannot find
+  "/home/solomon/atlasr1_ws/src/atlasr1_controller/launch": No such file or
+  directory.
+
+[0m

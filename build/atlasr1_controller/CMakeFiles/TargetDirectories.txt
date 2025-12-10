@@ -1,0 +1,11 @@
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/uninstall.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/atlasr1_controller_uninstall.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/ament_cmake_python_copy_atlasr1_controller.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/ament_cmake_python_build_atlasr1_controller_egg.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/test.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/edit_cache.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/rebuild_cache.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/list_install_components.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/install.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/install/local.dir
+/home/solomon/atlasr1_ws/build/atlasr1_controller/CMakeFiles/install/strip.dir

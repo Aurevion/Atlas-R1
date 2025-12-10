@@ -1,0 +1,9 @@
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/uninstall.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/atlasr1_description_uninstall.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/test.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/edit_cache.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/rebuild_cache.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/list_install_components.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/install.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/install/local.dir
+/home/solomon/atlasr1_ws/build/atlasr1_description/CMakeFiles/install/strip.dir

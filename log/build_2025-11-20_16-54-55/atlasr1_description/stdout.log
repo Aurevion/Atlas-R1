@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/base_link.stl
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_2.stl
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/lidar.stl
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_3.stl
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_1.stl
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf/atlasr1.urdf.xacro
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch/display.launch.py
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch/gazebo.launch.py

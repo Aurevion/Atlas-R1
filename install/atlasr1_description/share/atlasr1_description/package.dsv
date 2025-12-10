@@ -1,0 +1,8 @@
+source;share/atlasr1_description/hook/cmake_prefix_path.ps1
+source;share/atlasr1_description/hook/cmake_prefix_path.dsv
+source;share/atlasr1_description/hook/cmake_prefix_path.sh
+source;share/atlasr1_description/local_setup.bash
+source;share/atlasr1_description/local_setup.dsv
+source;share/atlasr1_description/local_setup.ps1
+source;share/atlasr1_description/local_setup.sh
+source;share/atlasr1_description/local_setup.zsh

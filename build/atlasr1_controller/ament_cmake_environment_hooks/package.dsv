@@ -1,0 +1,4 @@
+source;share/atlasr1_controller/local_setup.bash
+source;share/atlasr1_controller/local_setup.dsv
+source;share/atlasr1_controller/local_setup.sh
+source;share/atlasr1_controller/local_setup.zsh

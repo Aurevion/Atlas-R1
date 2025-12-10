@@ -1,0 +1,36 @@
+[0.015s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_description -- -j16 -l16
+[0.122s] Invoked command in '/home/solomon/atlasr1_ws/build/atlasr1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_description -- -j16 -l16
+[0.137s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/solomon/atlasr1_ws/build/atlasr1_description
+[0.149s] -- Install configuration: ""
+[0.149s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/base_link.stl
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_2.stl
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/lidar.stl
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_3.stl
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/meshes/wheel_1.stl
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf/atlasr1_ros2_control.xacro
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf/atlasr1_gazebo.xacro
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf/atlasr1.urdf.xacro
+[0.150s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/urdf/atlasr3.urdf.xacro
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch/display.launch.py
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/launch/gazebo.launch.py
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/rviz
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/rviz/display.rviz
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/ament_index/resource_index/package_run_dependencies/atlasr1_description
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/ament_index/resource_index/parent_prefix_path/atlasr1_description
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/environment/ament_prefix_path.sh
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/environment/ament_prefix_path.dsv
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/environment/path.sh
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/environment/path.dsv
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/local_setup.bash
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/local_setup.sh
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/local_setup.zsh
+[0.151s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/local_setup.dsv
+[0.152s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/package.dsv
+[0.152s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/ament_index/resource_index/packages/atlasr1_description
+[0.152s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/cmake/atlasr1_descriptionConfig.cmake
+[0.152s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/cmake/atlasr1_descriptionConfig-version.cmake
+[0.152s] -- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_description/share/atlasr1_description/package.xml
+[0.155s] Invoked command in '/home/solomon/atlasr1_ws/build/atlasr1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/solomon/atlasr1_ws/build/atlasr1_description

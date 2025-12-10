@@ -1,0 +1,8 @@
+[0.019s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_controller -- -j16 -l16
+[0.083s] [31mCMake Error at CMakeLists.txt:37:
+[0.084s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.084s] 
+[0.084s] [0m
+[0.084s] -- Configuring incomplete, errors occurred!
+[0.090s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.095s] Invoked command in '/home/solomon/atlasr1_ws/build/atlasr1_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_controller -- -j16 -l16

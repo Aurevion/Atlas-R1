@@ -1,0 +1,1 @@
+[0.014s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_description -- -j16 -l16

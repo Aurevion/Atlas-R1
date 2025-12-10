@@ -1,0 +1,2 @@
+/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py:23: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  self.speed_conversion_ = np.array([[self.wheel_radius_/2,self.wheel_radius_/2]

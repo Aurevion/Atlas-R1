@@ -1,0 +1,54 @@
+[0.014s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_controller -- -j16 -l16
+[0.048s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.313s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.341s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.437s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.438s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.586s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.586s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.855s] -- Configuring done (0.8s)
+[0.865s] -- Generating done (0.0s)
+[0.868s] -- Build files have been written to: /home/solomon/atlasr1_ws/build/atlasr1_controller
+[0.937s] Built target ament_cmake_python_copy_atlasr1_controller
+[1.168s] running egg_info
+[1.169s] creating atlasr1_controller.egg-info
+[1.190s] writing atlasr1_controller.egg-info/PKG-INFO
+[1.190s] writing dependency_links to atlasr1_controller.egg-info/dependency_links.txt
+[1.190s] writing top-level names to atlasr1_controller.egg-info/top_level.txt
+[1.190s] writing manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+[1.254s] reading manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+[1.255s] writing manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+[1.306s] Built target ament_cmake_python_build_atlasr1_controller_egg
+[1.323s] Invoked command in '/home/solomon/atlasr1_ws/build/atlasr1_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/solomon/atlasr1_ws/build/atlasr1_controller -- -j16 -l16
+[1.324s] Invoking command in '/home/solomon/atlasr1_ws/build/atlasr1_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/solomon/atlasr1_ws/build/atlasr1_controller
+[1.336s] -- Install configuration: ""
+[1.336s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.sh
+[1.336s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.dsv
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/top_level.txt
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller
+[1.337s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/__init__.py
+[1.338s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py
+[1.377s] /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py:23: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+[1.377s]   self.speed_conversion_ = np.array([[self.wheel_radius_/2,self.wheel_radius_/2]
+[1.377s] Listing '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller'...
+[1.377s] Compiling '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/__init__.py'...
+[1.377s] Compiling '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py'...
+[1.385s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include
+[1.385s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include/atlasr1_controller
+[1.386s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config
+[1.386s] -- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config/atlasr1_controllers.yaml
+[1.386s] [31mCMake Error at cmake_install.cmake:74 (file):
+[1.386s]   file INSTALL cannot find
+[1.386s]   "/home/solomon/atlasr1_ws/src/atlasr1_controller/launch": No such file or
+[1.386s]   directory.
+[1.386s] 
+[1.386s] [0m
+[1.388s] Invoked command in '/home/solomon/atlasr1_ws/build/atlasr1_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/solomon/atlasr1_ws/build/atlasr1_controller

@@ -1,0 +1,10 @@
+setup.py
+atlasr1_controller/__init__.py
+atlasr1_controller/inverse_kinematics_test.py
+atlasr1_controller/kinematics_test_2.py
+atlasr1_controller/simple_controller.py
+atlasr1_controller/whymialive_1.py
+atlasr1_controller.egg-info/PKG-INFO
+atlasr1_controller.egg-info/SOURCES.txt
+atlasr1_controller.egg-info/dependency_links.txt
+atlasr1_controller.egg-info/top_level.txt

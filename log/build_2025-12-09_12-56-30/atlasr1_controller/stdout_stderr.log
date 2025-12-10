@@ -1,0 +1,46 @@
+Built target ament_cmake_python_copy_atlasr1_controller
+running egg_info
+writing atlasr1_controller.egg-info/PKG-INFO
+writing dependency_links to atlasr1_controller.egg-info/dependency_links.txt
+writing top-level names to atlasr1_controller.egg-info/top_level.txt
+reading manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+writing manifest file 'atlasr1_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_atlasr1_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.sh
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/pythonpath.dsv
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/__init__.py
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/whymialive_1.py
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py
+Listing '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller'...
+Compiling '/home/solomon/atlasr1_ws/install/atlasr1_controller/lib/python3.12/site-packages/atlasr1_controller/simple_controller.py'...
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/include/include/atlasr1_controller
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/launch
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/launch/controller.launch.py
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config/joy_teleop.yaml
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config/joy_config.yaml
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/config/atlasr1_controllers.yaml
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/lib/atlasr1_controller/simple_controller.py
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/ament_index/resource_index/package_run_dependencies/atlasr1_controller
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/ament_index/resource_index/parent_prefix_path/atlasr1_controller
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/path.sh
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/environment/path.dsv
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/local_setup.bash
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/local_setup.sh
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/local_setup.zsh
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/local_setup.dsv
+-- Installing: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/package.dsv
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/ament_index/resource_index/packages/atlasr1_controller
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/cmake/atlasr1_controllerConfig.cmake
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/cmake/atlasr1_controllerConfig-version.cmake
+-- Up-to-date: /home/solomon/atlasr1_ws/install/atlasr1_controller/share/atlasr1_controller/package.xml
