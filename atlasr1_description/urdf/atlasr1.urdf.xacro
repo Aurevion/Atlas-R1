@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="atlasr1" xmlns:xacro="http://ros.org/wiki/xacro">
+<!-- Start GZ or Ignition depending on ROS 2 Version -->
+<xacro:arg name="is_ignition" default="true"/>
+
+<!-- Include Gazebo Parameters -->
+<xacro:include filename="$(find atlasr1_description)/urdf/atlasr1_gazebo.xacro"/>
+
+<!-- Include ros2_control Plugins -->
+<xacro:include filename="$(find atlasr1_description)/urdf/atlasr1_ros2_control.xacro"/>
+
+<link name= "base_footprint"/>
+
+
+    <link name="wheel_1">
+        <inertial>
+            <origin xyz="-3.5932964827234405e-09 -2.767720435059573e-09 0.011700000849920044" rpy="0.0 -5.551115123125784e-17 0.0" />
+            <mass value="0.1848405762145018" />
+            <inertia ixx="2.3308413435976583e-05" iyy="2.33084134024634e-05" izz="3.265430578912174e-05" ixy="-3.569701224360674e-20" iyz="8.893409319647281e-20" ixz="2.490276864927643e-19" />
+        </inertial>
+        <visual name="wheel_1_visual">
+            <origin xyz="-3.5933526555675945e-09 -2.767720431728904e-09 0.011700000849920044" rpy="-2.954538278132035e-15 -1.8873791418627847e-15 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_1_collision">
+            <origin xyz="-3.5933526555675945e-09 -2.767720431728904e-09 0.011700000849920044" rpy="-2.954538278132035e-15 -1.8873791418627847e-15 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="lidar">
+        <inertial>
+            <origin xyz="0.0028401625906872177 0.012566909481971276 0.012773519054685085" rpy="0.0 -0.0 0.0" />
+            <mass value="0.30908631325941793" />
+            <inertia ixx="0.00036976470660743345" iyy="0.00013975405579335146" izz="0.0004384155166564397" ixy="-6.010379652183782e-05" iyz="2.2823288681139914e-05" ixz="5.183069460130296e-06" />
+        </inertial>
+        <visual name="lidar_visual">
+            <origin xyz="1.6454587303815772e-10 8.617368620067456e-10 2.76772047058671e-09" rpy="-5.506662834053717e-16 -1.6300533649525783e-15 -1.5707963267948866" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/lidar.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="lidar_collision">
+            <origin xyz="1.6454587303815772e-10 8.617368620067456e-10 2.76772047058671e-09" rpy="-5.506662834053717e-16 -1.6300533649525783e-15 -1.5707963267948866" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/lidar.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wheel_2">
+        <inertial>
+            <origin xyz="-3.550214148773101e-09 -2.7677203673359687e-09 0.01169999721126266" rpy="0.0 -0.0 0.0" />
+            <mass value="0.1848405762145018" />
+            <inertia ixx="2.330841343597609e-05" iyy="2.33084134024634e-05" izz="3.2654305789122596e-05" ixy="2.879912020664621e-20" iyz="1.1996661539607468e-50" ixz="2.1006417091906648e-19" />
+        </inertial>
+        <visual name="wheel_2_visual">
+            <origin xyz="-3.5502703155110283e-09 -2.7677203640052995e-09 0.01169999721126266" rpy="3.1638609750544596e-16 -3.025357742103675e-15 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_2_collision">
+            <origin xyz="-3.5502703155110283e-09 -2.7677203640052995e-09 0.01169999721126266" rpy="3.1638609750544596e-16 -3.025357742103675e-15 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wheel_3">
+        <inertial>
+            <origin xyz="2.1436790204054645e-09 -2.7677203728870835e-09 0.011699998338914438" rpy="0.0 -0.0 0.0" />
+            <mass value="0.1848405762145018" />
+            <inertia ixx="2.3308413435976427e-05" iyy="2.330841340246275e-05" izz="3.265430578912201e-05" ixy="-3.8841887114771676e-20" iyz="-4.017106763250183e-20" ixz="-3.083199928005653e-19" />
+        </inertial>
+        <visual name="wheel_3_visual">
+            <origin xyz="2.143622847561311e-09 -2.7677203695564147e-09 0.011699998338914419" rpy="1.7967187808004883e-15 -1.1268763699945476e-14 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_3_collision">
+            <origin xyz="2.143622847561311e-09 -2.7677203695564147e-09 0.011699998338914419" rpy="1.7967187808004883e-15 -1.1268763699945476e-14 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/wheel_3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="3.6033665621919384e-05 2.4468044209132564e-05 0.03276504191461647" rpy="0.0 0.0 0.0" />
+            <mass value="2.084623752766319" />
+            <inertia ixx="0.007645409823605511" iyy="0.007636442198886669" izz="0.013171281859076065" ixy="4.752497083719979e-06" iyz="-5.714667903175831e-07" ixz="-6.864710302095807e-07" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://atlasr1_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link" />
+        <origin xyz="0 0 0.033" rpy="0 0 0"/>
+        </joint>
+    <joint name="wheel_1_joint" type="continuous">
+        <origin xyz="0.0670614335502705 -0.038717940861737264 0.00449999723227957" rpy="-1.5707963267948968 -1.7377487196821212e-17 -2.0943951023932" />
+        <parent link="base_link" />
+        <child link="wheel_1" />
+        <axis xyz="2.018922195534678e-07 0.0 0.9999996503124186" />
+    </joint>
+    <joint name="wheel_2_joint" type="continuous">
+        <origin xyz="-0.06706143644973041 -0.03871794086173728 0.004499997232279578" rpy="-1.5707963267948966 -3.5639999037719856e-17 2.0943951023931966" />
+        <parent link="base_link" />
+        <child link="wheel_3" />
+        <axis xyz="-2.018922192204009e-07 0.0 0.9999996503124187" />
+    </joint>
+    <joint name="wheel_3_joint" type="continuous">
+        <origin xyz="3.550270351038165e-09 0.07743587913826275 0.004499997232279575" rpy="-1.5707963267948966 5.30174862345408e-17 1.0408340855860818e-16" />
+        <parent link="base_link" />
+        <child link="wheel_2" />
+        <axis xyz="4.829432811116326e-33 0.0 1.0" />
+    </joint>
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="-3.256644973001321e-05 -8.617373876973478e-10 0.0819999972322794" rpy="1.0543866127421558e-17 5.30174862345408e-17 1.0408340855860818e-16" />
+        <parent link="base_link" />
+        <child link="lidar" />
+    </joint>
+</robot>
